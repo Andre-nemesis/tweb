@@ -1,0 +1,55 @@
+*{box-sizing: border-box; margin: 0; padding: 0;}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+body{background-color: #843d1a; font-family: 'Poppins', sans-serif; }
+
+.top{width: 100%; background-color: #292722; height: 5%;}
+.top ul{text-align: center; list-style: none;}
+.top ul li{display: inline-block; padding: 20px;}
+.top ul li a{text-decoration: none; color: white;}
+.top ul li:hover{border-bottom: solid #b1530d;}
+
+.pt1{margin: 1rem auto; width: 80%;}
+
+.l1{background-color: #cbbd97; width: 50%; display: inline-block; height: 10%; margin: 0;}
+.l1 h1{padding: 4rem 5rem; text-align: center;}
+
+.L2{background-color: aliceblue; width: 50%; float: right; margin: 0; padding: 3.28rem 3rem;}
+.L2 p{text-align: justify; font-size: 0.8rem; font-style: italic;}
+
+.L3{background-color: aliceblue; width: 50%; display: inline-block; margin: 0; padding: 2rem;}
+.L3 h1{font-size: 1.2rem;}
+.L3 p{text-align: justify; font-size: 0.8rem; margin-top: 0.5rem; margin-bottom: 0.5rem; margin-bottom: 0.5rem;}
+.L3 h5{ background-color: #c3321c; width: 7rem; border: none; color: white;
+        text-align: center; padding: 0.7rem; float: right;border-bottom-left-radius:50% ; border-top-right-radius:50% ;}
+.L3 h5 a{text-decoration: none; color: white;}
+
+.L4{background-color:#cbbd97 ; width: 50%; float: right; padding: 2rem;}
+.L4 img{width: 20%; height: 20%; border-radius: 50%; margin: 0 40%;}
+.L4 p{font-size: 0.5rem; margin-top:1rem; text-align: justify;}
+
+.L5 {width: 50%; display: inline-block;}
+.L5 img{width:100%;}
+
+.L6 {width: 50%; float: right; background-color: aliceblue; padding: 2rem;}
+.L6 h1{font-size: 1.2rem; text-align: center;}
+.L6 p{text-align: justify; font-size: 0.8rem; margin-top: 0.5rem; margin-bottom: 0.25rem;}
+.L6 p a{text-decoration: none; color: #2448ae; font-size: 0.9rem;}
+.L6 h5{ background-color: #c3321c; width: 7rem; border: none; color: white;
+        text-align: center; padding: 0.9rem; float: right; margin-top: 0.5rem;border-bottom-left-radius:50% ; 
+        border-top-right-radius:50% ;}
+.L6 h5 a{text-decoration: none; color: white;}
+
+.pt2 {margin: 1rem auto; width: 80%;}
+
+.G1 {background-color: aliceblue; width: 75.4%; display: inline-block; padding: 2rem;}
+.G1 h1{color: #cf2626; font-size: 1.2rem;}
+.G1 p {font-size: 0.8rem; text-align: justify; margin-top: 0.5rem; margin-bottom: 00.5rem;}
+.G1 h5{ background-color: #c3321c; width: 7rem; border: none; color: white;
+    text-align: center; padding: 0.7rem; float: right; margin-top: 0.5rem; border-bottom-left-radius:50% ; border-top-right-radius:50% ;}
+.G1 h5 a{text-decoration: none; color:white; } 
+
+.G2 {width: 24.6%; float: right;}
+.G2 img{width: 100%;}
+
+.pt3{text-align: center; opacity: 40%; margin-top: 4rem; color: white;}
+
