@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+*{box-sizing: border-box; margin: 0; padding: 0; font-family: 'Dancing Script', cursive;}
+
+body{background-image: url("https://wallpaperaccess.com/full/144511.png"); background-size: 100%;}
+
+#img{top:45rem; width: 10%; position: relative; left: -30%;}
+
+.menu{width: 30%; background-color: #a5c5a8; display: inline-block; position: relative; top: 20rem;}
+.menu ul{list-style: none;}
+.menu ul li{border-bottom: 1px solid #b5b5b5; text-align: center;}
+.menu ul li a{text-decoration: none; padding: 20px; display: inline-block; color: black;}
+.menu ul li a:hover{background-color: #d99691; width: 100%;}
+
+#aimg{float: right; width: 10%;}
+
+.pt1{ background-color: #b8b4b8; width: 30rem; height: 15rem; position: relative; right: -50%; top: -5rem; opacity: 50%; padding: 2rem; border-radius: 10%;}
+.pt1 h1{text-align: center; font-size: 2rem; margin-top: 5%;}
+.pt1 p{text-align: center; margin-top: 15%; font-size: 1rem;}
+.pt1 p a{text-decoration: none; color: black;}
+
+.pt2{ background-color: #b8b4b8; width: 30rem; height: 15rem; position: relative; right: -50%; top: -5rem; margin-top: 5rem; opacity: 50%; border-top-left-radius: 30%; border-bottom-right-radius:30% ;}
+.pt2 p { padding: 3rem; text-align: justify;}
