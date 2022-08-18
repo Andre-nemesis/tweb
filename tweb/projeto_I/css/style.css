@@ -1,0 +1,231 @@
+*{box-sizing: border-box; margin: 0; padding: 0;}
+
+.sec1{
+    height: 110vh; 
+    background-image: url(file:///C:/Users/rafaj/OneDrive/%C3%81rea%20de%20Trabalho/coiss%20da%20escola/facul/projeto_I/projeto_I/img/antique-cafe-bg-01.jpg);
+    background-size: 100%;
+}
+
+.imgbody{
+    width: 100%;
+    position: relative;
+}
+
+.menu{
+    width: 100%; 
+    background-color: black; 
+    opacity: 50%; 
+    z-index: 1;
+    position: fixed;
+}
+
+.menu ul{
+        list-style: none;
+        text-align: right;
+        
+}
+
+.menu ul li{
+    padding: 2rem 1rem;
+    display: inline-block;
+}
+
+.menu ul li a{
+    color: #D2691E;   
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: 0.35s;
+    padding: 2rem;
+    
+}
+
+.menu ul li a:hover{
+    background-color :#A52A2A;
+    color:black;
+    width: 100%;
+    border-radius: 20%;
+}
+
+.txtb1{
+    position: relative;
+    top: 10rem;
+    right: -30%;
+    width: 35%;
+    background-color: black;
+    opacity: 70%;
+    height: 30%;
+    border-radius: 1rem;
+}
+
+.txtb1 h1{
+    text-align: center;
+    color: white;
+    padding: 2rem;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+
+.txtb1 p{
+    text-align: center;
+    color:#D2691E ;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.txt2b1{
+    width: 35%;
+    background-color: black;
+    opacity: 70%;
+    position: relative;
+    top: 15rem;
+    right: -30%;
+    border-radius: 1rem;
+}
+
+.txt2b1 p{
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    font-size: 1.2rem;
+    
+}
+
+.sec2{
+    background-image: url(file:///C:/Users/rafaj/OneDrive/%C3%81rea%20de%20Trabalho/coiss%20da%20escola/facul/projeto_I/projeto_I/img/antique-cafe-bg-02.jpg);
+    background-size: 100%;
+    height: 110vh;
+}
+
+.lplaca{
+    background-color: white;
+    width: 25%;
+    border-radius: 5rem;
+    position: relative;
+    right: -35%;
+    top: -2.5rem;
+}
+.lplaca h1{
+    color:#D2691E;
+    text-align: center;
+    padding: 2rem;
+    font-size: 2rem;
+}
+
+.card{
+    background-color: #A0522D;
+    display: inline-block;
+    width: 30%;
+    height:80% ;
+    position: relative;
+    right:-15%;
+    border-radius: 3rem;
+}
+
+.card img{
+    display: inline-block;
+    border-radius: 2rem;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+#lado1{
+    float: right;
+    position: relative;
+    top: 2rem;
+    left: -5rem;
+}
+
+#lado2{
+    float: right;
+    position: relative;
+    top: 2.5rem;
+    left: -3rem;
+}
+
+#lado3{
+    float: right;
+    position: relative;
+    top: 2.5rem;
+    left: -7rem;
+}
+
+#lado4{
+    float: right;
+    position: relative;
+    top: 2.5rem;
+    left: -5rem;
+}
+
+.card2{
+    background-color: #A0522D;
+    display: inline-block;
+    width: 30%;
+    height:80% ;
+    position: relative;
+    right:-25%;
+    border-radius: 3rem;
+}
+
+.card2 img{
+    display: inline-block;
+    border-radius: 2rem;
+    margin: 0.5rem;
+    cursor:pointer;
+}
+
+.sec3{
+    background-image: url(file:///C:/Users/rafaj/OneDrive/%C3%81rea%20de%20Trabalho/coiss%20da%20escola/facul/projeto_I/projeto_I/img/graos.jpg);
+    background-size: 100%;
+    height: 110vh;
+}
+
+.sec3 img{
+    display: inline-block;
+    width: 45%;
+    border-radius: 5rem;
+    position: relative;
+    top: 23%;
+    right: -3%;
+}
+
+.sec3 h1{
+    background-color: black;
+    opacity: 55%;
+    width: 40%;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    float: right;
+    border-radius: 1rem;
+    position: relative;
+    font-size: 2rem;
+    top: 30%;
+    right: 5%;
+}
+
+.sec3 p{
+    background-color: black;
+    opacity: 60%;
+    width: 40%;
+    color: white;
+    text-align: justify;
+    padding: 1rem;
+    float: right;
+    border-radius: 1rem;
+    position: relative;
+    right: 5%;
+    top: -15%;
+    font-size: 1.2rem;
+}
+
+.foo{
+    background-color: #8B4513;
+    width: 100%;
+    height: 5rem;
+}
+.foo p{ 
+    text-align: center;
+    position: relative;
+    top: 45%;
+}
+
