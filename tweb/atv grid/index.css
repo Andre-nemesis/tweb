@@ -1,4 +1,9 @@
-*{box-sizing: border-box; margin: 0; padding: 0; border-radius: 1rem;}
+*{
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0; 
+    border-radius: 1rem;
+}
 
 body{
     background-color: lightslategray;
@@ -15,7 +20,6 @@ body{
     "logo nav nav caixa2"
     "conteudo nav nav caixa2"
     "caixa1 caixa1 caixa1 caixa1"
-    
 
     ;
     grid-template-rows: 400px 300px 350px ;
@@ -119,7 +123,7 @@ body{
 
     "logo logo logo logo"
     "conteudo conteudo conteudo caixa1"
-    "conteudo conteudo conteudo caixa1"
+    "conteudo conteudo conteudo parte"
     "caixa2 nav footer footer"
 
     ;
@@ -159,6 +163,11 @@ body{
 .footer-3{
     grid-area: footer;
     background-color: limegreen;
+}
+
+.parte{
+    grid-area: parte;
+    background-color: lightpink;
 }
 
 .container4{
