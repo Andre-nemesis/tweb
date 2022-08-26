@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: darkslategray;
+}
+
+.sec1{
+    background-image: url(file:///C:/Users/Aluno/Downloads/projeto_II/imgs/header.jpg);
+    background-size: 100%;
+    height: 110vh;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 20% 80%;
+    grid-template-areas: 
+    "naveg"
+    "txt"
+    ; 
+}
+
+.menu{
+    grid-area: naveg;
+    display: grid;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+    background-color:white;
+    grid-template-areas:
+    "logo nav"
+    ;
+    
+}
+
+.menu ul{
+    text-align: right;
+    list-style: none;
+    padding: 2rem;
+}
+
+.menu ul li{
+    display: inline-block;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color:black;
+    padding: 3rem;
+    font-size: 1.25rem;
+}
+
+.menu ul li a:hover{
+    color:#F08080;
+}
+
+.nav{
+    grid-area: nav;
+}
+
+.img{
+    grid-area: logo;
+}
+
+.img2{
+    position: relative;
+    width: 10%;
+    right: -3rem;
+    top: 0.5rem;
+}
+
+.txt-sec1{
+    grid-area: txt;
+    display: inline-block;
+    width: 100%;
+}
+
+.txt-sec1 h1{
+    color:white ;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 10%;
+}
+
+.txt-sec1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    background-color: #DC143C;
+    border-radius: 5rem;
+    padding: 1rem;
+    margin-left:47%;
+
+}
+
+.sec2{
+    display: grid;
+    height: 60vh;
+    width: 100%;
+    background-color: #E6E6FA;
+    grid-template-columns: auto auto;
+}
+
+.sec2{
+
+}
