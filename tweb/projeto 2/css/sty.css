@@ -4,12 +4,21 @@
     padding: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
 body{
     background-color: darkslategray;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+textarea{
+    resize: none;
+    max-width: 80%;
+    min-width: 40%;
 }
 
 .sec1{
-    background-image: url(file:///C:/Users/Aluno/Downloads/projeto_II/imgs/header.jpg);
+    background-image: url(https://github.com/Andre-nemesis/tweb/blob/main/tweb/projeto%202/imgs/header.jpg?raw=true);
     background-size: 100%;
     height: 110vh;
     display: grid;
@@ -65,9 +74,9 @@ body{
 
 .img2{
     position: relative;
-    width: 10%;
+    width: 20%;
     right: -3rem;
-    top: 0.5rem;
+    top: 0.25rem;
 }
 
 .txt-sec1{
@@ -101,8 +110,234 @@ body{
     width: 100%;
     background-color: #E6E6FA;
     grid-template-columns: auto auto;
+    grid-template-areas: 
+    "texto imag"
+    ;
 }
 
-.sec2{
+.sec2 img{
+    display: inline-block;
+    width: 80%;
+    border-radius: 2rem;
+    grid-area: imag;
+    align-content: center;
+    margin-top: 1rem;
+}
 
+.txt-sec2{
+    display: grid;
+    grid-area: texto;
+}
+
+.tex-sec2 h1{
+    background-color: #F08080;
+    width: 80%;
+    color: white;
+    padding: 1rem;
+}
+
+.tex-sec2 h2{
+    margin-top: 1rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+}
+
+.tex-sec2 p{
+    text-align: justify;
+    padding: 1rem;
+    width: 80%;
+}
+
+.sec3{
+    display: grid;
+    width: 100%;
+    height: 60vh;
+    background-color:white;
+    grid-template-areas:
+    "tt tt tt tt"
+    "b1 b2 b3 b4"
+    ;
+
+    grid-template-rows: 20% 20% 20% 20%;
+}
+
+.sec3 h1{
+    background-color: #F08080;
+    color: white;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    width: 50%;
+    height: 80%;
+}
+
+.sec3 h2{
+    text-align: center;
+}
+
+.sec3 img{
+    margin-left: 3rem;
+}
+
+.sec3 p{
+    text-align: justify;
+    padding: 1rem;
+    font-size: 0.8rem;
+}
+
+.tt{
+    grid-area: tt;
+}
+
+.b-1{
+    display: grid;
+    grid-area: b1;
+}
+
+.b-11{
+    margin: 0 1rem;
+    margin-top: 2rem;
+}
+
+.b-11 img{
+    width: 50%;
+    margin-left: 5rem;
+}
+
+.b-2{
+    display: grid;
+    grid-area: b2;
+    margin: 0 1rem;
+}
+
+.b-22{
+    margin: 0 1rem;
+    margin-top: 2rem;
+}
+
+.b-22 img{
+    width: 70%;
+}
+
+.b-33{
+    margin: 0 1rem;
+    margin-top: 2rem;
+}
+
+.b-3{
+    display: grid;
+    grid-area: b3;
+    margin: 0 1rem;
+}
+
+.b-33 img{
+    width: 70%;
+}
+
+.b-4{
+    display: grid;
+    grid-area: b4;
+    margin: 0 1rem;
+}
+
+.b-44{
+    margin: 0 1rem;
+    margin-top: 2rem;
+}
+
+.b-44 img{
+    width: 70%;
+}
+
+.sec4{
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto auto;
+    grid-template-areas:
+    "t1 t2"
+    ;
+    height: 60vh;
+    background-color: #E6E6FA;
+}
+
+.sec4-t1{
+    grid-area: t1;
+}
+
+.sec4-t11{
+    display: grid;
+    width: 100%;
+    grid-template-areas: 
+    "tit"
+    "name"
+    "email"
+    "msg"
+    "send"
+    ;
+    grid-template-rows: 15% 20% 20% 30% 10%;
+}
+
+.sec4-t11 textarea{
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.sec4-t11 h1{
+    background-color: #F08080;
+    width: 100%;
+    padding: 1rem;
+}
+
+.sec4-t11 h2{
+    background-color: #F08080;
+    width: 80%;
+    padding: 0.5rem;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 3rem;
+    font-size: 1.2rem;
+}
+
+.tit{
+    grid-area: tit;
+}
+
+.name{
+    grid-area: name;
+}
+
+
+.email{
+    grid-area: email;
+}
+
+
+.msg{
+    grid-area: msg;
+}
+
+
+.send{
+    grid-area: send;
+}
+
+.sec4-t2{
+    grid-area: t2;
+}
+
+.sec4-t22{
+    margin-top: 10rem;
+    margin-left: 10rem;
+    font-size: 1.2rem;
+}
+
+.foot{
+    color: #708090;
+    background-color: white;
+    text-align: center;
+    padding: 2rem;
+    font-size: 1rem;
 }
